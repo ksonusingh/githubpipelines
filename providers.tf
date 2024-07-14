@@ -1,11 +1,11 @@
 terraform {
-  /*cloud {
+  cloud {
     organization = "sonuterraform"
 
     workspaces {
       name = "terraform-function-poc"
     }
-  } */
+  }
 
   required_providers {
     aws = {
